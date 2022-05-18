@@ -1,0 +1,51 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+ 
+}
+*,
+*::before,
+*::after{
+  box-sizing:border-box;
+}
+.page{
+  font-family: 'Coming Soon', cursive;
+  font-size: 25px;
+  height: 100vh;
+  background-color: bisque;
+  background-image: url(../images/ede2f4e97e98907c510f1356af8835a6.jpeg);
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+  align-items:center;
+  flex-wrap: wrap;
+  color:azure;
+  background-color:rgba(157, 107, 21, 0.549)
+}
+.logo{
+  margin: 3%;
+}
+.navbar{
+  display: flex;
+  
+}
+.navbar_item{
+  display: inline-block;
+  list-style: none;
+}
+.link{
+  padding: 15px;
+  text-decoration: none;
+  color:white;
+}
+.btn
+{
+  margin:  2%;
+  padding: 10px 25px;
+  border:1px solid white;
+  text-decoration: none;
+  color:white;
+}
