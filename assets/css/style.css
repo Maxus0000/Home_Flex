@@ -14,12 +14,13 @@ body{
   height: 100vh;
   background-color: bisque;
   background-image: url(../images/ede2f4e97e98907c510f1356af8835a6.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header{
   display: flex;
   justify-content: space-between;
-  height: 15vh;
   align-items:center;
   flex-wrap: wrap;
   color:azure;
@@ -31,6 +32,9 @@ body{
 .navbar{
   display: flex;
   
+}
+.navbar_list{
+  padding-left: 0px;
 }
 .navbar_item{
   display: inline-block;
